@@ -1,0 +1,8 @@
+[
+  {"sourceSystem": "GATE", "sourceSeq": 1, "containerNo": "CNU0001", "opPartition": "GATE-NORTH", "eventType": "GATE_RELEASE", "bizTime": "2026-11-20T09:00:00+08:00", "voyageNo": "V2026-11A", "payload": {"direction": "IN", "gate": "G3"}},
+  {"sourceSystem": "GATE", "sourceSeq": 2, "containerNo": "CNU0002", "opPartition": "GATE-NORTH", "eventType": "GATE_RELEASE", "bizTime": "2026-11-20T09:05:00+08:00", "voyageNo": "V2026-11A", "payload": {"direction": "IN", "gate": "G3"}},
+  {"sourceSystem": "GATE", "sourceSeq": 3, "containerNo": "CNU0003", "opPartition": "GATE-NORTH", "eventType": "GATE_RELEASE", "bizTime": "2026-11-20T09:10:00+08:00", "voyageNo": "V2026-11A", "payload": {"direction": "IN", "gate": "G1"}},
+  {"sourceSystem": "GATE", "sourceSeq": 4, "containerNo": "CNU0004", "opPartition": "GATE-NORTH", "eventType": "GATE_RELEASE", "bizTime": "2026-11-20T09:20:00+08:00", "voyageNo": "V2026-11A", "payload": {"direction": "IN", "gate": "G2"}},
+  {"sourceSystem": "GATE", "sourceSeq": 5, "containerNo": "CNU0005", "opPartition": "GATE-NORTH", "eventType": "GATE_RELEASE", "bizTime": "2026-11-20T09:30:00+08:00", "voyageNo": "V2026-11A", "payload": {"direction": "IN", "gate": "G2"}},
+  {"sourceSystem": "GATE", "sourceSeq": 6, "containerNo": "CNU0006", "opPartition": "GATE-NORTH", "eventType": "GATE_RELEASE", "bizTime": "2026-11-20T09:40:00+08:00", "voyageNo": "V2026-11A", "payload": {"direction": "IN", "gate": "G1"}}
+]

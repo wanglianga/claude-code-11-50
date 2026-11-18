@@ -1,0 +1,4 @@
+[
+  {"sourceSystem": "YARD", "sourceSeq": 1, "containerNo": "CNU0001", "opPartition": "YARD-A", "eventType": "YARD_CHECK", "bizTime": "2026-11-20T10:30:00+08:00", "voyageNo": "V2026-11A", "payload": {"block": "A", "slot": "01-01", "auditor": "张工"}},
+  {"sourceSystem": "YARD", "sourceSeq": 2, "containerNo": "CNU0004", "opPartition": "YARD-A", "eventType": "YARD_CHECK", "bizTime": "2026-11-20T11:00:00+08:00", "voyageNo": "V2026-11A", "payload": {"block": "A", "slot": "04-01", "auditor": "张工"}}
+]

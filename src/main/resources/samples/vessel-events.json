@@ -1,0 +1,8 @@
+[
+  {"sourceSystem": "VESSEL", "sourceSeq": 1, "containerNo": "CNU0001", "opPartition": "BERTH-02", "eventType": "LOAD_CONFIRM", "bizTime": "2026-11-20T15:00:00+08:00", "voyageNo": "V2026-11A", "payload": {"voyageNo": "V2026-11A", "berth": "B2", "hatch": "H1"}},
+  {"sourceSystem": "VESSEL", "sourceSeq": 2, "containerNo": "CNU0002", "opPartition": "BERTH-02", "eventType": "LOAD_CONFIRM", "bizTime": "2026-11-20T14:00:00+08:00", "voyageNo": "V2026-11A", "payload": {"voyageNo": "V2026-11A", "berth": "B2", "hatch": "H1"}},
+  {"sourceSystem": "VESSEL", "sourceSeq": 3, "containerNo": "CNU0003", "opPartition": "BERTH-02", "eventType": "LOAD_CONFIRM", "bizTime": "2026-11-20T13:30:00+08:00", "voyageNo": "V2026-11A", "payload": {"voyageNo": "V2026-11A", "berth": "B2", "hatch": "H2"}},
+  {"sourceSystem": "VESSEL", "sourceSeq": 4, "containerNo": "CNU0004", "opPartition": "BERTH-02", "eventType": "LOAD_CONFIRM", "bizTime": "2026-11-20T15:30:00+08:00", "voyageNo": "V2026-11A", "payload": {"voyageNo": "V2026-11A", "berth": "B2", "hatch": "H2"}},
+  {"sourceSystem": "VESSEL", "sourceSeq": 5, "containerNo": "CNU0005", "opPartition": "BERTH-02", "eventType": "LOAD_CONFIRM", "bizTime": "2026-11-20T16:00:00+08:00", "voyageNo": "V2026-11A", "payload": {"voyageNo": "V2026-11A", "berth": "B2", "hatch": "H3"}},
+  {"sourceSystem": "VESSEL", "sourceSeq": 6, "containerNo": "CNU0006", "opPartition": "BERTH-02", "eventType": "LOAD_CONFIRM", "bizTime": "2026-11-20T16:30:00+08:00", "voyageNo": "V2026-11A", "payload": {"voyageNo": "V2026-11A", "berth": "B2", "hatch": "H3"}}
+]

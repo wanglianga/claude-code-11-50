@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: port-lakehouse
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://127.0.0.1:5432/ccdev}
+    username: ${DB_USER:ccdev}
+    password: ${DB_PASSWORD:ccdev}
+    hikari:
+      maximum-pool-size: 10
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+server:
+  port: ${SERVER_PORT:8080}
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+
+# 本地开发便利：开启 /api/dev/reset（验收回放可重复执行）。生产部署必须设为 false。
+app:
+  dev:
+    reset-enabled: ${DEV_RESET_ENABLED:true}
+
+logging:
+  level:
+    root: info
+    com.portops.lakehouse: info

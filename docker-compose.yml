@@ -1,0 +1,33 @@
+services:
+  db:
+    image: postgres:18
+    environment:
+      POSTGRES_DB: portdb
+      POSTGRES_USER: portops
+      POSTGRES_PASSWORD: portops
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U portops -d portdb"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    ports:
+      - "5432:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+  app:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DB_URL: jdbc:postgresql://db:5432/portdb
+      DB_USER: portops
+      DB_PASSWORD: portops
+      # 本地验收便利：开启 /api/dev/reset 使回放脚本可重复执行；生产请设为 false
+      DEV_RESET_ENABLED: "true"
+    ports:
+      - "8080:8080"
+
+volumes:
+  db-data:

@@ -1,0 +1,7 @@
+[
+  {"carrier": "MASK-LINE", "voyageNo": "V2026-11A", "containerNo": "CNU0001", "receiptSeq": 1, "claimed": {"loaded": true, "moveCount": 1, "gateReleased": false, "fees": [{"feeType": "LOAD_FEE", "amount": "450.00"}, {"feeType": "MOVE_FEE", "amount": "80.00"}]}},
+  {"carrier": "MASK-LINE", "voyageNo": "V2026-11A", "containerNo": "CNU0002", "receiptSeq": 1, "claimed": {"loaded": true, "moveCount": 1, "gateReleased": false, "fees": [{"feeType": "LOAD_FEE", "amount": "450.00"}, {"feeType": "MOVE_FEE", "amount": "80.00"}]}},
+  {"carrier": "MASK-LINE", "voyageNo": "V2026-11A", "containerNo": "CNU0003", "receiptSeq": 1, "claimed": {"loaded": true, "moveCount": 1, "gateReleased": false, "fees": [{"feeType": "LOAD_FEE", "amount": "450.00"}, {"feeType": "MOVE_FEE", "amount": "80.00"}]}},
+  {"carrier": "MASK-LINE", "voyageNo": "V2026-11A", "containerNo": "CNU0004", "receiptSeq": 1, "claimed": {"loaded": false, "moveCount": 1, "gateReleased": false, "fees": [{"feeType": "MOVE_FEE", "amount": "80.00"}], "note": "承运人主张该箱未装船"}},
+  {"carrier": "MASK-LINE", "voyageNo": "V2026-11A", "containerNo": "CNU0005", "receiptSeq": 1, "claimed": {"loaded": true, "moveCount": 2, "gateReleased": false, "fees": [{"feeType": "LOAD_FEE", "amount": "450.00"}, {"feeType": "MOVE_FEE", "amount": "160.00"}]}}
+]

@@ -1,0 +1,3 @@
+[
+  {"sourceSystem": "CRANE", "sourceSeq": 8, "containerNo": "CNU0005", "opPartition": "YARD-A", "eventType": "CORRECTION", "bizTime": "2026-11-20T11:50:00+08:00", "voyageNo": "V2026-11A", "payload": {"position": "A-05-09", "moveCount": 3, "note": "盘点发现漏报一次移箱（截关后补发的更正报文，业务时点在截关前）"}}
+]
